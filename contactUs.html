@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact Us</title>
-    </head>
-    <body>
-        <h2>Contact Us</h2>
-        <from>
-            <table>
-                <tr>
-                    <td><label for="Full Name"><strong>Full Name:</strong></label></td>
-                    <td><input type="Full Name" id="Full Name"required  placeholder="Max Charcter length=40"/></td>
-                </tr>
-                <tr>
-                    <td><label for="Mobile No"><strong>Mobile No:</strong></label></td>
-                    <td><input type="Mobile No" id="Mobile No"></td>
-                </tr>
-                <tr>
-                    <td><label for="Email"><strong>Email:</strong></label></td>
-                    <td><input type="Eamil" id="Email" required placeholder="Ex:abc@gamil.com"></td>
-                </tr>
-                <tr>
-                    <td><label for="Enquiry"><strong>Enquiry:</strong></label></td>
-                    <td><textarea cols="50" rows="7"></textarea></td>
-                </tr>
-                <tr>
-                    <td><button type="submit">Submit</button></td>
-                    <td><button type="Clear">Clear</button></td>
-                  </tr>
-              
-            </table>
-        </from>
-    </body>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+   <style>
+    *{
+                font-family: 'Roboto Slab', serif;
+            }
+            label{
+                color: cadetblue;
+                font-size: x-large;
+            }
+            input{
+                width: 200px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+               
+            }
+            input[type="Full Name"] {
+              text-transform: capitalize;
+            }
+           
+            input[type="Email"]{
+                color: chocolate;
+            }
+            #submit:hover{
+                background-color: burlywood;
+            }
+            button[type="reset"]:hover{
+                color: brown;
+            }
+            button[type="clear"]:hover{
+                color: brown;
+            }
+   </style>
+  <body>
+    <h2>Contact Us</h2>
+    <from>
+      <table>
+        <tr>
+          <td>
+            <label for="Full Name"><strong>Full Name:</strong></label>
+          </td>
+          <td>
+            <input
+              type="Full Name"
+              id="Full Name"
+              required
+              placeholder="Max Charcter length=40"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Mobile No"><strong>Mobile No:</strong></label>
+          </td>
+          <td><input type="Mobile No" id="Mobile No" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email"><strong>Email:</strong></label>
+          </td>
+          <td>
+            <input
+              type="Eamil"
+              id="Email"
+              required
+              placeholder="Ex:abc@gamil.com"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Enquiry"><strong>Enquiry:</strong></label>
+          </td>
+          <td><textarea cols="50" rows="7"></textarea></td>
+        </tr>
+        <tr>
+          <td><button type="submit" id="submit">Submit</button></td>
+          <td><button type="Clear" id="clear">Clear</button></td>
+        </tr>
+      </table>
+    </from>
+  </body>
 </html>

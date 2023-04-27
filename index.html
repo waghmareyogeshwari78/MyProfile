@@ -1,42 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Index Page</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-       p1 {
-                color: blueviolet;
-                background-color: pink;
-    
-            }
-           
-        </style>
-    </head>
-    <br>
- <body>
+  <head>
+    <title>Index Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      p1 {
+        color: blueviolet;
+        background-color: pink;
+      }
+      header{
+          background-color: gray;  
+          padding: 15px;
+          font-size:medium;
+          
+        }
+        *{
+          margin: 0px;
+          padding: 0px;
+        }
+      .userInfo{
+        margin-right: 10px;
+        padding-right: 10px;
+        font-family:unset;
+        font-size: large;
+      }
+      .data{
+        margin-right: 10px;
+        padding-right: 20px;
+        font-family:initial;
+        font-size: large;
+      }
+      .target{
+        margin-right: 30px;
+        padding-right: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:medium;
+      }
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+
+        
+    </style>
+  </head>
+  <body>
     <p1>
-        <i id="tool"class="fa fa-user" aria-hidden="true"></i><span>&nbsp;&nbsp;Mohit Sharma</span>&nbsp;&nbsp;&nbsp;&nbsp;
-         <i class="fa fa-phone" aria-hidden="true"></i><span>&nbsp;&nbsp;56437 789 45</span>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope-o" aria-hidden="true"></i><span>&nbsp;&nbsp;mohitsharma@gmail.com</span>
-        </p1>
-        <br><br>
-        <nav>
-            <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-            <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-            <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-            <a href="education.html" target="frame">  EDUCATION </a> &nbsp; &nbsp; &nbsp;
-            <a href="contactUs.html" target=""> CONTACT ME </a>
-        </nav>
-        <br><br>
-        <iframe  height="500px" width="700px" name="frame">
- </iframe>
-<header>
-    <p>Follow Me:
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/login/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    </p>
-</header>
-</body>
+      <i class="fa fa-user" aria-hidden="true"></i>
+    <span class="userInfo">Mohit Sharma</span>
+      <i class="fa fa-phone" aria-hidden="true"></i
+      ><span class="userInfo">56437 789 45</span>
+      <i class="fa fa-envelope-o" aria-hidden="true"></i
+      ><span  class="userInfo">mohitsharma@gmail.com</span>
+    </p1>
+
+    <nav >
+      <br>
+      <a  class="data" href="home.html" target="frame">HOME</a> 
+      <a class="data" href="techStack.html" target="frame">TECHNOLOGY STACK</a> 
+      <a  class="data"href="personal.html" target="frame"> PERSONAL </a> 
+     <a  class="data"href="education.html" target="frame"> EDUCATION </a> 
+     <a  class="data"href="contactUs.html" target=""> CONTACT ME </a>
+    </nav>
+    <br>
+    <iframe height="600px" width="700px" name="frame"> </iframe>
+    <header>
+      <p>
+        Follow Me: <a class="target"
+          href="https://www.linkedin.com/login/"
+          target="_blank"
+          ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
+        >
+        <a  class="target" href="https://www.google.co.in/" target="_blank"
+          ><i class="fa fa-google" aria-hidden="true"></i></a
+        >
+        <a  class="target"href="https://www.instagram.com/?hl=en" target="_blank"
+          ><i class="fa fa-instagram" aria-hidden="true"></i></a
+        >
+        <a class="target" href="https://www.facebook.com/" target="_blank"
+          ><i class="fa fa-facebook" aria-hidden="true"></i
+        ></a>
+      </p>
+    </header>
+  </body>
 </html>
